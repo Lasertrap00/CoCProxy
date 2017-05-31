@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{0549ed54-2e0f-483d-b108-c8e7a162689e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Networking">
+      <UniqueIdentifier>{adf27fe3-4359-47fc-898a-41ac8a4482f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Networking\Server">
+      <UniqueIdentifier>{d4ba5f48-fb45-41bc-8aaf-d4bd17fa9d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Networking\Client">
+      <UniqueIdentifier>{1597a293-e640-4767-b45b-048cd98c3046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Utils">
+      <UniqueIdentifier>{f19b7f88-48d3-4eb7-be7d-a4e94726738d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.h">
+      <Filter>Classes\Networking\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Classes\Networking\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
